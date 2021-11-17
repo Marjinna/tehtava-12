@@ -1,0 +1,29 @@
+body {
+    background-image: url(teldrassilflames.jpg);
+    background-size: streched;
+}
+h1 {
+    text-align: center;
+    padding: 16px;
+    text-shadow: chocolate 0 0 8px;
+    color: lightsalmon;
+}
+.carousel-inner > .item > img {
+    width:640px;
+    height:360px;
+  }
+  .navbar-nav .nav-item .nav-link {
+    color: gray;
+}
+.navbar-nav .nav-item.active .nav-link,
+.navbar-nav .nav-item:hover .nav-link {
+    color: maroon;
+}
+.jumbotron {
+    background-image: url("wowonyxialeveä.jpg");
+    background-size: cover;
+    color: blanchedalmond;
+}
+footer {
+    padding-top: 100px;
+}
