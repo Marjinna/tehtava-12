@@ -1,5 +1,17 @@
-body {
-    background-image: url(teldrassilflames.jpg);
+body.index {
+    background: url(teldrassilflames.jpg) no-repeat center center fixed;
+    background-size: cover;
+    }
+body.maailmat {
+    background: url(argus.jpg) no-repeat center center fixed;
+    background-size: cover;
+    }   
+body.factions {
+    background: url(factions.jpg) no-repeat center center fixed;
+    background-size: cover;
+    }
+body.cities {
+    background: url(races.jpg) no-repeat center center fixed;
     background-size: cover;
 }
 h1 {
@@ -36,8 +48,18 @@ h1 {
 .navbar-nav .nav-item:hover .nav-link {
     color: goldenrod;
 }
-.jumbotron {
-    background-image: url("wowonyxialeveä.jpg");
+.jumbotron-index {
+    background-image: url(jumbotron/wowonyxialeveä.jpg);
+    background-size: cover;
+    color: blanchedalmond;
+}
+.jumbotron-maailmat {
+    background-image: url(jumbotron/maailmat.jpeg);
+    background-size: cover;
+    color: blanchedalmond;
+}
+.jumbotron-factions {
+    background-image: url(jumbotron/alliancehorde.jpg);
     background-size: cover;
     color: blanchedalmond;
 }
