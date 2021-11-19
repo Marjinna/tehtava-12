@@ -45,12 +45,29 @@ h1 {
     height:360px;
   }
   .navbar-nav .nav-item .nav-link {
-    color: gray;
+    color:black;
     font-family: Arial, Helvetica, sans-serif;
 }
+navbar navbar-expand-md bg-dark navbar-light fixed-top
 .navbar-nav .nav-item.active .nav-link,
 .navbar-nav .nav-item:hover .nav-link {
-    color: goldenrod;
+    color:dodgerblue;
+    transition-duration: 1s;
+}
+.navbar {
+    background-image: url(questteksti2.jpg);
+    background-size: cover;
+}
+.navbar-toggler .navbar-toggler-collapsed{
+    color: red;
+}
+.nav-link {
+    margin: 3px;
+    border: 3px;
+    border-style: solid;
+    text-align: center;
+    font-size: 16px;
+    padding: 4px;
 }
 .jumbotron-index {
     background-image: url(jumbotron/wowonyxialeveä.jpg);
