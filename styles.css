@@ -1,18 +1,21 @@
 body.index {
-    background: url(teldrassilflames.jpg) no-repeat center center fixed;
+    background: url(teldrassilflames.jpg) no-repeat center fixed;
     background-size: cover;
     }
 body.maailmat {
-    background: url(argus.jpg) no-repeat center center fixed;
+    background: url(argus.jpg) no-repeat center fixed;
     background-size: cover;
     }   
 body.factions {
-    background: url(factions.jpg) no-repeat center center fixed;
+    background: url(factions.jpg) no-repeat center fixed;
     background-size: cover;
     }
 body.cities {
-    background: url(races.jpg) no-repeat center center fixed;
+    background: url(races.jpg) no-repeat center fixed;
     background-size: cover;
+}
+.wowilogo {
+padding-top: 70px;
 }
 h1 {
     text-align: center;
