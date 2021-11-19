@@ -1,4 +1,8 @@
 body.index {
+    background: url(wowclassictausta.jpg) no-repeat center fixed;
+    background-size: cover;
+    }
+body.yleistä {
     background: url(teldrassilflames.jpg) no-repeat center fixed;
     background-size: cover;
     }
@@ -15,7 +19,7 @@ body.cities {
     background-size: cover;
 }
 .wowilogo {
-    padding-top: 70px;
+    padding-top: 80px;
     text-align: center;
     }
 h1 {
@@ -48,7 +52,6 @@ h1 {
     color:black;
     font-family: Arial, Helvetica, sans-serif;
 }
-navbar navbar-expand-md bg-dark navbar-light fixed-top
 .navbar-nav .nav-item.active .nav-link,
 .navbar-nav .nav-item:hover .nav-link {
     color:dodgerblue;
@@ -68,6 +71,19 @@ navbar navbar-expand-md bg-dark navbar-light fixed-top
     text-align: center;
     font-size: 16px;
     padding: 4px;
+}
+.nav-etusivu {
+    margin: 3px;
+    border: 3px;
+    border-style: solid;
+    font-size: 16px;
+    padding: 4px;
+    float: left;
+}
+.jumbotron-etusivu {
+    background-image: url(jumbotron/orgrimmarart.jpg);
+    background-size: cover;
+    color: blanchedalmond;
 }
 .jumbotron-index {
     background-image: url(jumbotron/wowonyxialeveä.jpg);
