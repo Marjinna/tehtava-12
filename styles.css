@@ -18,6 +18,10 @@ body.cities {
     background: url(races.jpg) no-repeat center fixed;
     background-size: cover;
 }
+body.about {
+    background: url(northshire.jpg) no-repeat center fixed;
+    background-size: cover;
+}
 .wowilogo {
     padding-top: 80px;
     text-align: center;
