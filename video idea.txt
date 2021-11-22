@@ -9,3 +9,18 @@
 
 
 https://startbootstrap.com/snippets/video-header
+
+
+
+  @media (pointer: coarse) and (hover: none) {
+    header {
+      background: url('lichkingmobile.jpg') black no-repeat center center scroll;
+    }
+  
+    header video {
+      display: none;
+    }
+  }
+
+Ironforge, Darnassus, Exodar, Stormwind
+Orgrimmar, Silvermoon, ThunderBluff, Undercity

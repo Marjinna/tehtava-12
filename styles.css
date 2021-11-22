@@ -36,6 +36,27 @@ h1 {
     background-image: url(questteksti2.jpg);
     background-size: cover;
 }
+.multi-item-example {
+    max-height: 500px;
+}
+.card-body {
+    background-image: url(questteksti2.jpg);
+    background-size: cover;
+    min-height: 250px;
+}
+.btn-primary {
+    text-align: center;
+}
+.card-text {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+}
+.card-title {
+    text-align: center;
+}
+.carousel-indicators {
+    margin: px;
+}
 .leipa {
     font-size: larger;
     font-family:Arial, Helvetica, sans-serif;
@@ -105,17 +126,19 @@ h1 {
     background-size: cover;
     color: blanchedalmond;
 }
+.jumbotron-cities {
+    background-image: url(jumbotron/wowfactionsleveä.jpg);
+    background-size: cover;
+    color: blanchedalmond;
+}
+.jumbotron-linkyksi {
+    background-image: url(questteksti2.jpg);
+    background-size: cover;
+    padding: 20px;
+}
 footer {
     padding-top: 100px;
 }
-
-
-
-
-
-
-
-
 header {
     position: relative;
     background-color: black;
@@ -158,16 +181,3 @@ header {
     z-index: 1;
   }
   
-  /* Media Query for devices withi coarse pointers and no hover functionality */
-  
-  /* This will use a fallback image instead of a video for devices that commonly do not support the HTML5 video element */
-  
-  @media (pointer: coarse) and (hover: none) {
-    header {
-      background: url('lichkingmobile.jpg') black no-repeat center center scroll;
-    }
-  
-    header video {
-      display: none;
-    }
-  }
