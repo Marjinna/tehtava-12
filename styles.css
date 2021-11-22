@@ -49,13 +49,10 @@ h1 {
 }
 .card-text {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: 400;
 }
 .card-title {
     text-align: center;
-}
-.carousel-indicators {
-    margin: px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .leipa {
     font-size: larger;
@@ -68,6 +65,12 @@ h1 {
 .carousel-inner > .item > img {
     width:640px;
     height:360px;
+  }
+  .carousel-inner {
+    margin-bottom:50px;
+ }
+  .carousel-indicators {
+    bottom:-25px;
   }
   .navbar-nav .nav-item .nav-link {
     color:black;
@@ -181,3 +184,52 @@ header {
     z-index: 1;
   }
   
+  @media only screen and (max-width: 600px) {
+    h4 {
+       padding-top: 280px;
+    }
+ }
+  table, th, td ,tr{
+    border: 1px solid black;
+    background: lightgrey;
+    font-size: 17px;
+    width: 100%;
+    padding: 20px;
+    text-align: left; 
+    vertical-align: middle;
+  }
+  table.bodywrapcenter>tr>td>th {
+    width: 100%;
+    float: left;
+}
+form {
+   border: 1px solid black;
+padding: 20px;
+background-image: url(questteksti2.jpg);
+background-size: cover;
+margin-top: 60px;
+margin-bottom: 60px;
+}
+input[type=submit] {
+  width: 100%;
+  background-color: black;
+  color: white;
+  padding: 10px;
+  margin: 8px 0;
+  cursor: pointer;
+  text-align: center;
+}
+input[type=text], select , area, textarea{
+  width: 100%;
+  padding: 10px 30px;
+  margin: 8px 0;
+  font-size: 14px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-sizing: border-box;
+  background-image: url(parchment.jpg);
+  background-size: cover;
+}
+
+
