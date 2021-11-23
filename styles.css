@@ -21,6 +21,7 @@ body.cities {
 body.about {
     background: url(northshire.jpg) no-repeat center fixed;
     background-size: cover;
+    height: 100vh;
 }
 .wowilogo {
     padding-top: 80px;
