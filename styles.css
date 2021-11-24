@@ -202,6 +202,14 @@ header {
     card-body {
         min-height: 200px;
     }
+    img-responsive {
+        height:auto; 
+        width:100%
+       }
+    .background {
+        height:auto; 
+        width:100%
+       }
  }
   table, th, td ,tr{
     border: 1px solid black;
