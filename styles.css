@@ -5,10 +5,14 @@ body.index {
 body.yleistä {
     background: url(teldrassilflames.jpg) no-repeat center fixed;
     background-size: cover;
+    height: 100vh;
+    background-position: top;
     }
 body.maailmat {
     background: url(argus.jpg) no-repeat center fixed;
     background-size: cover;
+    height: 100vh;
+    background-position: top;
     }   
 body.factions {
     background: url(factions.jpg) no-repeat center fixed;
@@ -203,10 +207,6 @@ header {
         min-height: 200px;
     }
     img-responsive {
-        height:auto; 
-        width:100%
-       }
-    .background {
         height:auto; 
         width:100%
        }
