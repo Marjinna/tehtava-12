@@ -5,13 +5,13 @@ body.index {
 body.yleistä {
     background: url(teldrassilflames.jpg) no-repeat center fixed;
     background-size: cover;
-    height: 100vh;
+    min-height: 100vh;
     background-position: top;
     }
 body.maailmat {
     background: url(argus.jpg) no-repeat center fixed;
     background-size: cover;
-    height: 100vh;
+    min-height: 100vh;
     background-position: top;
     }   
 body.factions {
